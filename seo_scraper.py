@@ -21,6 +21,28 @@ def fetch_title():
     except requests.RequestException as err:
         sb(f"Error fetching title: {err}")
 
+def fetch_links():
+    url = _url.get()
+    base_url = url.split("/")[2]
+    config['links'] = []
+    _images.set(())
+    try:
+        page = requests.get(url)
+        soup = BeautifulSoup(page.content, 'html.parser')
+        links = [
+            a['href'] for a in soup.find_all('a', href=True)
+            if a['href'].startswith('http') and base_url not in a['href']
+        ]
+        if links:
+            _images.set(tuple(links))
+            sb(f"External links found: {len(links)}")
+            config['links'] = links
+        else:
+            sb("No external links found")
+    except requests.RequestException as err:
+        sb(f"Error fetching links: {err}")
+
+
 def fetch_url():
     url = _url.get()
     config['images'] = []

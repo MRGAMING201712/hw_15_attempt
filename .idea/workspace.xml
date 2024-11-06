@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8786d86e-a7c7-4670-aba2-a36e2f55833a" name="Changes" comment="Added seo_scraper.py file and copied code from gui_scraper">
-      <change afterPath="$PROJECT_DIR$/seo_scraper.py" afterDir="false" />
-    </list>
+    <list default="true" id="8786d86e-a7c7-4670-aba2-a36e2f55833a" name="Changes" comment="Added a fetch_title function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730854185333</updated>
-      <workItem from="1730854186391" duration="396000" />
+      <workItem from="1730854186391" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="Added seo_scraper.py file and copied code from gui_scraper">
       <option name="closed" value="true" />
@@ -94,7 +92,39 @@
       <option name="project" value="LOCAL" />
       <updated>1730854422584</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added seo_scraper.py file and copied code from gui_scraper">
+      <option name="closed" value="true" />
+      <created>1730854585260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730854585260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added seo_scraper.py file and copied code from gui_scraper">
+      <option name="closed" value="true" />
+      <created>1730854647719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730854647719</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I actually added seo_scraper.py file and copied code from gui_scraper">
+      <option name="closed" value="true" />
+      <created>1730854818846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730854818846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added a fetch_title function">
+      <option name="closed" value="true" />
+      <created>1730854884202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730854884202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +132,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added seo_scraper.py file and copied code from gui_scraper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added seo_scraper.py file and copied code from gui_scraper" />
+    <MESSAGE value="I actually added seo_scraper.py file and copied code from gui_scraper" />
+    <MESSAGE value="Added a fetch_title function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a fetch_title function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
